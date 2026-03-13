@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Upload Resumes - AI Recruit</title>
+</head>
+<body>
+
+<div class="navbar">
+    <h2>AI Recruit</h2>
+    <div><div class="leaves">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+        <a href="/" class="active-tab">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/jobs">Jobs</a>
+    </div>
+</div>
+
+<div class="upload-section">
+    <h2>Upload Candidate Resumes</h2>
+    <p>Upload multiple resumes in .txt format. You can also add extra certifications or achievements in the resume text for more accurate scoring.</p>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="resumes" multiple required>
+        <br>
+        <button class="btn">Upload & Analyze</button>
+    </form>
+
+    <div style="margin-top:20px;">
+        <a href="/" class="btn">Back to Home</a>
+        <a href="/dashboard" class="btn">Go to Dashboard</a>
+    </div>
+</div>
+
+<div class="leaves">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+</body>
+</html>

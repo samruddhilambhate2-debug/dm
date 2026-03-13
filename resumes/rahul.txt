@@ -1,0 +1,10 @@
+Name: Rahul Sharma
+
+Skills:
+Python
+SQL
+Data Analysis
+Machine Learning
+
+Experience:
+2 years

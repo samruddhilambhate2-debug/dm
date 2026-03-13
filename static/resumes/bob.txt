@@ -1,0 +1,7 @@
+Bob Smith
+Email: bob@example.com
+Phone: +91 91234 56789
+Skills: HTML, CSS, JavaScript, React
+Experience: Developed responsive websites for small businesses.
+Education: B.Sc in IT, ABC University
+Certifications: Front-End Web Development Certification

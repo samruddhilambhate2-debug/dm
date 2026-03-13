@@ -1,0 +1,324 @@
+/* Reset & General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.navbar h2 {
+    font-size: 1.8em;
+    color: #ffd700;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.navbar a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 50px 50px 50px;
+    flex-wrap: wrap;
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+.hero img {
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+.btn {
+    padding: 12px 30px;
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #fff;
+    transform: scale(1.05);
+}
+
+/* Feature & Template Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    width: 280px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(255,255,255,0.2);
+}
+
+/* Marquee */
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #ffd700;
+}
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+@keyframes marquee {
+    0% { transform: translate(0,0);}
+    100% { transform: translate(-100%,0);}
+}
+
+/* Tables */
+.table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: rgba(255,255,255,0.9);
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.table tr:hover {
+    background-color: rgba(255, 223, 0, 0.2);
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+/* Login Page */
+.login-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    gap:50px;
+    padding-top:80px;
+}
+.login-card{
+    background:rgba(255,255,255,0.1);
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    backdrop-filter: blur(10px);
+}
+.login-card input{
+    width:80%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:8px;
+    border:none;
+}
+.login-info{
+    max-width:400px;
+    background:rgba(255,255,255,0.05);
+    padding:30px;
+    border-radius:15px;
+    backdrop-filter: blur(5px);
+}
+.login-info ul{
+    text-align:left;
+    margin-left:20px;
+}
+
+/* Upload Section */
+.upload-section {
+    text-align: center;
+    margin-top: 50px;
+}
+input[type=file] {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Floating circles animation */
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    animation: float 25s linear infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0px) translateX(0px);}
+    50% { transform: translateY(-200px) translateX(50px);}
+    100% { transform: translateY(0px) translateX(0px);}
+}
+
+/* Responsive */
+@media screen and (max-width: 900px){
+    .hero{
+        flex-direction: column;
+        text-align:center;
+    }
+    .hero img{
+        margin-top:20px;
+        width:80%;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 15px;
+    }
+}/* Input focus effect */
+.login-card input:focus{
+    outline: none;
+    box-shadow: 0 0 8px #ffd700;
+    border-radius: 8px;
+}
+
+/* Buttons hover scaling */
+.login-card .btn:hover{
+    transform: scale(1.05);
+    background-color: #fff;
+}
+
+/* Active tab styling */
+.navbar a.active-tab{
+    border-bottom: 3px solid #ffd700;
+    padding-bottom: 5px;
+}
+
+/* Bubble animation for floating effect (already included previously) */
+@keyframes float {
+    0% { transform: translateY(0px) translateX(0px);}
+    50% { transform: translateY(-200px) translateX(50px);}
+    100% { transform: translateY(0px) translateX(0px);}
+}
+
+/* Add pointer cursor for navbar links */
+.navbar a{
+    cursor: pointer;
+}
+
+/* Smooth transition for hover effects */
+.navbar a, .btn, .card, .table tr{
+    transition: 0.3s ease-in-out;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ffd700;
+    color: #000;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #fff;
+    transform: scale(1.05);
+}
+.leaves span{
+position:absolute;
+top:-10%;
+width:30px;
+height:30px;
+background:#8fd694;
+border-radius:50% 0 50% 0;
+opacity:0.7;
+animation:fall 10s linear infinite;
+}
+
+/* different positions */
+.leaves span:nth-child(1){
+left:10%;
+animation-duration:12s;
+}
+
+.leaves span:nth-child(2){
+left:25%;
+animation-duration:9s;
+}
+
+.leaves span:nth-child(3){
+left:40%;
+animation-duration:14s;
+}
+
+.leaves span:nth-child(4){
+left:60%;
+animation-duration:10s;
+}
+
+.leaves span:nth-child(5){
+left:75%;
+animation-duration:11s;
+}
+
+.leaves span:nth-child(6){
+left:90%;
+animation-duration:13s;
+}
+
+/* falling animation */
+@keyframes fall{
+
+0%{
+transform:translateY(-100px) rotate(0deg);
+}
+
+50%{
+transform:translateY(50vh) rotate(180deg);
+}
+
+100%{
+transform:translateY(100vh) rotate(360deg);
+}
+
+}

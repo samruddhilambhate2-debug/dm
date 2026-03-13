@@ -1,0 +1,11 @@
+job_title,required_skills
+Data Scientist,"python,machine learning,data mining,statistics"
+Data Analyst,"python,sql,data analysis,excel"
+Web Developer,"html,css,javascript,react"
+Database Analyst,"sql,database,oracle,postgresql"
+AI Engineer,"python,machine learning,deep learning,tensorflow"
+Software Developer,"java,c++,python,git"
+Business Analyst,"excel,data analysis,communication,sql"
+Machine Learning Engineer,"python,ml,deep learning,pytorch"
+Cloud Engineer,"aws,azure,cloud computing,python"
+DevOps Engineer,"docker,kubernetes,ci/cd,linux"

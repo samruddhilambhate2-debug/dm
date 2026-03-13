@@ -1,0 +1,7 @@
+Emma Williams
+Email: emma@example.com
+Phone: +91 99887 66554
+Skills: Python, TensorFlow, Machine Learning, Deep Learning
+Experience: Created deep learning models for image classification.
+Education: B.Tech in Data Science, LMN University
+Certifications: Deep Learning Specialization, Python for Data Analysis

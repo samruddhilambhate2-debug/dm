@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - AI Resume Screening</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- Animated bubbles -->
+<div class="bubble" style="width:100px;height:100px;top:30px;left:50px;"></div>
+<div class="bubble" style="width:150px;height:150px;top:150px;left:400px;"></div>
+<div class="bubble" style="width:80px;height:80px;top:300px;left:700px;"></div>
+<div class="leaves">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<!-- Navbar -->
+<div class="navbar">
+    <h2>AI Recruit</h2>
+    <div>
+        <a href="/" class="active-tab">Home</a>
+        <a href="/login">Login</a>
+        <a href="/jobs">Jobs</a>
+    </div>
+</div>
+
+<!-- Login Section -->
+<div class="login-page">
+    <!-- Login Box -->
+    <div class="login-card">
+        <h2>Login</h2>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <button class="btn">Login</button>
+        </form>
+        <p style="margin-top:15px;font-size:14px;color:#ffd700;">Use admin/admin123 or teacher/teacher123</p>
+    </div>
+
+    <!-- Info Box -->
+    <div class="login-info">
+        <h3>About AI Resume Screening</h3>
+        <p>This AI-powered system allows recruiters to:</p>
+        <ul>
+            <li>Upload multiple resumes at once</li>
+            <li>Automatically extract and rank candidate skills</li>
+            <li>Get job recommendations based on skills</li>
+            <li>Visualize skill distribution with charts</li>
+            <li>Download professional resume templates</li>
+        </ul>
+        <img src="/static/ai.png" style="width:300px;margin-top:20px;border-radius:10px;">
+    </div>
+</div>
+
+<!-- Marquee -->
+<div class="marquee">
+    <span>Upload Resumes • Skill Analysis • Candidate Ranking • Job Recommendation • AI-Powered Recruitment • </span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+Alice Johnson
+Email: alice@example.com
+Phone: +91 98765 43210
+Skills: Python, SQL, Machine Learning, Data Mining
+Experience: Built predictive models for sales forecasting.
+Education: B.Tech in Computer Science, XYZ University
+Certifications: Data Science Certification, Machine Learning Specialization

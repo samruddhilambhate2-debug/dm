@@ -1,0 +1,26 @@
+FULL NAME
+Email: your.email@example.com
+Phone: +91 XXXXX XXXXX
+LinkedIn: linkedin.com/in/yourname
+GitHub: github.com/yourname
+
+PROFESSIONAL SUMMARY
+Aspiring Software Developer with strong knowledge of Java, C++, and Python.
+Skilled in web development, algorithms, and database management.
+
+TECHNICAL SKILLS
+Programming Languages: Java, C++, Python
+Web Development: HTML, CSS, JavaScript
+Database: SQL, PostgreSQL
+Tools & Technologies: Git, Docker, Linux
+
+PROJECTS
+Project Name: Inventory Management System
+Description: Built a Java application to manage warehouse inventory, track stock, and generate reports.
+Technologies: Java, MySQL
+
+EDUCATION
+Degree: Bachelor of Technology
+Specialization: Computer Science
+University: Your University Name
+Year of Graduation: 20XX

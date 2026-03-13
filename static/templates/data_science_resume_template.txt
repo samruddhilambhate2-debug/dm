@@ -1,0 +1,31 @@
+FULL NAME
+Email: your.email@example.com
+Phone: +91 XXXXX XXXXX
+LinkedIn: linkedin.com/in/yourname
+GitHub: github.com/yourname
+
+PROFESSIONAL SUMMARY
+Aspiring Data Scientist with strong knowledge of data analysis, machine learning, and statistical modeling.
+Skilled in Python, SQL, and data visualization tools.
+
+TECHNICAL SKILLS
+Programming Languages: Python, R, SQL
+Data Analysis Libraries: Pandas, NumPy, SciPy
+Machine Learning: Scikit-learn, TensorFlow, Keras
+Data Visualization: Matplotlib, Seaborn, Power BI, Tableau
+Tools & Technologies: Jupyter Notebook, Git, Excel, Google Colab
+
+PROJECTS
+Project Title: Sales Prediction using Machine Learning
+Description: Developed a model to predict product sales using historical data.
+Technologies: Python, Pandas, Scikit-learn, Matplotlib
+
+Project Title: Customer Segmentation
+Description: Applied clustering techniques to group customers based on purchasing behavior.
+Technologies: Python, K-Means, Data Visualization
+
+EDUCATION
+Degree: Bachelor of Technology / Bachelor of Science
+Specialization: Computer Science / Data Science / IT
+University: Your University Name
+Year of Graduation: 20XX
